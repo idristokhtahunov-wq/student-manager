@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+    <h2>Student Manager</h2>
+
+    <div class="nav">
+        <a href="#">Главная</a>
+        <a href="#students">Студенты</a>
+        <a href="#about">О нас</a>
+    </div>
+</header>
+    <div class="title">
+    <h1>Управление студентами</h1>
+    <p>Добавляйте студентов и просматривайте список группы</p>
+    <div class="form-box">
+    <h2>Добавить студента</h2>
+
+    <form>
+        <div class="input-box">
+            <label>Имя</label>
+            <input type="text" placeholder="Введите имя">
+        </div>
+
+        <div class="input-box">
+            <label>Фамилия</label>
+            <input type="text" placeholder="Введите фамилию">
+        </div>
+
+        <div class="input-box">
+            <label>Email</label>
+            <input type="email" placeholder="Введите email">
+        </div>
+
+        <div class="input-box">
+            <label>Группа</label>
+            <input type="text" placeholder="Например: IT-24">
+        </div>
+
+        <button type="submit">Добавить студента</button>
+    </form>
+    <div class="students" id="students">
+    <h2>Список студентов</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя</th>
+                <th>Фамилия</th>
+                <th>Email</th>
+                <th>Группа</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Арман</td>
+                <td>Алиев</td>
+                <td>arman@mail.com</td>
+                <td>IT-24</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Данияр</td>
+                <td>Садыков</td>
+                <td>daniyar@mail.com</td>
+                <td>IT-25</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Али</td>
+                <td>Ахметов</td>
+                <td>ali@mail.com</td>
+                <td>IT-24</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Аян</td>
+                <td>Нуров</td>
+                <td>ayan@mail.com</td>
+                <td>IT-25</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Максат</td>
+                <td>Омаров</td>
+                <td>maksat@mail.com</td>
+                <td>IT-24</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="about" id="about">
+    <h2>О проекте</h2>
+
+    <p>
+        Student Manager — веб-приложение для хранения
+        информации о студентах.
+    </p>
+
+    <a href="#">Подробнее</a>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

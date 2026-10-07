@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: white;
+    padding: 15px 50px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.nav a:hover {
+    color: #3478f6;
+}
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.title p {
+    color: #777;
+    font-size: 17px;
+}
+.form-box {
+    width: 500px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.form-box h2 {
+    margin-top: 0;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-box input:focus {
+    border-color: #3478f6;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3478f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2463cc;
+}
+.students {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.students h2 {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3478f6;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #e5e5e5;
+}
+.about {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+.about p {
+    color: #555;
+    font-size: 16px;
+}
+
+.about a {
+    color: #3478f6;
+    text-decoration: none;
+}
+
+.about a:hover {
+    text-decoration: underline;
+}
